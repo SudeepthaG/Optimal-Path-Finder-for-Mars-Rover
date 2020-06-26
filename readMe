@@ -1,7 +1,7 @@
 This project aims to find a path for a given rover sent to Mars to explore the surface of the planet. The rover is given information about the terrain(elevation of land at different points), its landing position and its target positions. The rover can move from one point to one of its 8 adjacent points as long as the height difference is less than the threshold value and it doesnt exit the given Mars site area.
 
 The input will be as follows:
-  1. Algorithm to be used
+  1. Algorithm to be used -BFS / UCS / A*
   2. Mars site area - width and length
   3. Landing position
   4. Threshold value - The maximum height difference the rover can move
@@ -10,4 +10,4 @@ The input will be as follows:
   6. Elevation values of each position
   
  
-The output will be the shortest possible path to visit all the given target positions while satisfying the elevation threshold conditions.
+The output will be the shortest possible path to visit all the given target positions using the specified algorithm while satisfying the elevation threshold conditions.
